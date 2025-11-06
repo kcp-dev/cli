@@ -8,7 +8,7 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/kcp-dev/client-go v0.28.1-0.20251017134924-34a207de127f
 	github.com/kcp-dev/logicalcluster/v3 v3.0.5
-	github.com/kcp-dev/sdk v0.28.1-0.20251103193518-385b036e4c87
+	github.com/kcp-dev/sdk v0.0.0-20251103193518-385b036e4c87
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/pflag v1.0.6
 	github.com/stretchr/testify v1.10.0
@@ -98,3 +98,9 @@ replace (
 	github.com/charmbracelet/colorprofile => github.com/charmbracelet/colorprofile v0.2.2
 	github.com/charmbracelet/x/ansi => github.com/charmbracelet/x/ansi v0.8.0
 )
+
+replace github.com/kcp-dev/apimachinery/v2 => github.com/kcp-dev/apimachinery/v2 v2.0.0-20251017134924-175b5bf68c05
+
+replace github.com/kcp-dev/code-generator/v3 => github.com/kcp-dev/code-generator/v3 v3.0.0-20251017134924-c023ef289dfc
+
+replace github.com/kcp-dev/client-go => github.com/kcp-dev/client-go v0.0.0-20251017134924-34a207de127f
