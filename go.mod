@@ -6,7 +6,7 @@ require (
 	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/google/go-cmp v0.7.0
-	github.com/kcp-dev/client-go v0.0.0-20251112153209-b37f4c1ff9a2
+	github.com/kcp-dev/client-go v0.0.0-20251202135310-e18164d7aff9
 	github.com/kcp-dev/logicalcluster/v3 v3.0.5
 	github.com/kcp-dev/sdk v0.0.0-20251112153223-09510ff9f18e
 	github.com/spf13/cobra v1.9.1
@@ -98,3 +98,5 @@ replace (
 	github.com/charmbracelet/colorprofile => github.com/charmbracelet/colorprofile v0.2.2
 	github.com/charmbracelet/x/ansi => github.com/charmbracelet/x/ansi v0.8.0
 )
+
+replace github.com/kcp-dev/apimachinery/v2 => github.com/kcp-dev/apimachinery/v2 v2.0.0-20251111105612-0aa2052c4e09
