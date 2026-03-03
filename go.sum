@@ -84,8 +84,8 @@ github.com/kcp-dev/client-go v0.0.0-20260226193555-65b8ae518027 h1:Z+LwsLRA7o1iV
 github.com/kcp-dev/client-go v0.0.0-20260226193555-65b8ae518027/go.mod h1:qvpYE3rs8BO1GGynUKBsMFC3QMgTQ4OxdxQhUeaDQgs=
 github.com/kcp-dev/logicalcluster/v3 v3.0.5 h1:JbYakokb+5Uinz09oTXomSUJVQsqfxEvU4RyHUYxHOU=
 github.com/kcp-dev/logicalcluster/v3 v3.0.5/go.mod h1:EWBUBxdr49fUB1cLMO4nOdBWmYifLbP1LfoL20KkXYY=
-github.com/kcp-dev/sdk v0.0.0-20260226193615-601aade3c0ec h1:ASES7XnR9Ze4zxn0Y0JNnH3NF1R/gudr0Wm2cVMNZEA=
-github.com/kcp-dev/sdk v0.0.0-20260226193615-601aade3c0ec/go.mod h1:29nIpSnQzL00mFgxrvzMjTOffj4/IPS3b1jLR6K75pI=
+github.com/kcp-dev/sdk v0.0.0-20260324152324-e00e1d431b3e h1:at2Pc0pmbhpdqflWBe95polkhYOB/eXuAwNBWzYmnaM=
+github.com/kcp-dev/sdk v0.0.0-20260324152324-e00e1d431b3e/go.mod h1:pxtiCFv/578e6F3pQ70CPV8YGjbG8J7DNQ56oCx3NTs=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
