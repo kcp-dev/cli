@@ -8,7 +8,7 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/kcp-dev/client-go v0.0.0
 	github.com/kcp-dev/logicalcluster/v3 v3.0.5
-	github.com/kcp-dev/sdk v0.0.0
+	github.com/kcp-dev/sdk v0.0.0-20260513141322-b027fe53bb90
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
@@ -27,12 +27,7 @@ replace (
 	github.com/charmbracelet/x/ansi => github.com/charmbracelet/x/ansi v0.8.0
 )
 
-replace (
-	github.com/kcp-dev/apimachinery/v2 => ../apimachinery
-	github.com/kcp-dev/client-go => ../client-go
-	github.com/kcp-dev/code-generator/v3 => ../code-generator
-	github.com/kcp-dev/sdk => ../sdk
-)
+replace github.com/kcp-dev/client-go => github.com/kcp-dev/client-go v0.0.0-20260522103404-5046253cbd4d
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
@@ -70,7 +65,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/kcp-dev/apimachinery/v2 v2.0.0-00010101000000-000000000000 // indirect
+	github.com/kcp-dev/apimachinery/v2 v2.0.0-20260513141322-0f0714fad9ea // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
 	github.com/lucasb-eyer/go-colorful v1.3.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
