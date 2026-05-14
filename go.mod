@@ -108,3 +108,5 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.0 // indirect
 )
+
+replace github.com/kcp-dev/code-generator/v3 => github.com/kcp-dev/code-generator/v3 v3.0.0-20260514195608-25c7cd6fc174
