@@ -108,8 +108,8 @@ github.com/kcp-dev/client-go v0.0.0-20260522103404-5046253cbd4d h1:tHWIFJe1lvYae
 github.com/kcp-dev/client-go v0.0.0-20260522103404-5046253cbd4d/go.mod h1:UayXqKdaRDBrRXxMyRq/+5CwsDqEXu9LJ9yPBXNQXDI=
 github.com/kcp-dev/logicalcluster/v3 v3.0.5 h1:JbYakokb+5Uinz09oTXomSUJVQsqfxEvU4RyHUYxHOU=
 github.com/kcp-dev/logicalcluster/v3 v3.0.5/go.mod h1:EWBUBxdr49fUB1cLMO4nOdBWmYifLbP1LfoL20KkXYY=
-github.com/kcp-dev/sdk v0.0.0-20260615132553-d66126c42324 h1:SS5a9dGi8uGEebYYQ8rs/f9kloCe+b866UcWFNM8pFY=
-github.com/kcp-dev/sdk v0.0.0-20260615132553-d66126c42324/go.mod h1:COalx/aYuz4QE5iSVBjL4L5KuYhncaFcIOPLSZMiSqc=
+github.com/kcp-dev/sdk v0.0.0-20260713105657-33b0a6df39af h1:LfGPAJvSAgyK7oG7OiFoEWnZX1e4DCEDl2EyFB0zi0g=
+github.com/kcp-dev/sdk v0.0.0-20260713105657-33b0a6df39af/go.mod h1:lX4XVHSKfSen7ZxrmaqxGeBIFyGucUT4nMg3UzJNzpo=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
 github.com/kr/pretty v0.3.1/go.mod h1:hoEshYVHaxMs3cyo3Yncou5ZscifuDolrwPKZanG3xk=
 github.com/kr/text v0.2.0 h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=
