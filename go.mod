@@ -6,9 +6,9 @@ require (
 	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/google/go-cmp v0.7.0
-	github.com/kcp-dev/client-go v0.0.0-20260522103404-5046253cbd4d
+	github.com/kcp-dev/client-go v0.0.0
 	github.com/kcp-dev/logicalcluster/v3 v3.0.5
-	github.com/kcp-dev/sdk v0.0.0-20260713105657-33b0a6df39af
+	github.com/kcp-dev/sdk v0.0.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
@@ -25,6 +25,13 @@ require (
 replace (
 	github.com/charmbracelet/colorprofile => github.com/charmbracelet/colorprofile v0.2.2
 	github.com/charmbracelet/x/ansi => github.com/charmbracelet/x/ansi v0.8.0
+)
+
+replace (
+	github.com/kcp-dev/apimachinery/v2 => ../apimachinery
+	github.com/kcp-dev/client-go => ../client-go
+	github.com/kcp-dev/code-generator/v3 => ../code-generator
+	github.com/kcp-dev/sdk => ../sdk
 )
 
 require (
@@ -63,7 +70,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/kcp-dev/apimachinery/v2 v2.0.0-20260615094100-229dbedddc96 // indirect
+	github.com/kcp-dev/apimachinery/v2 v2.0.0-00010101000000-000000000000 // indirect
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de // indirect
 	github.com/lucasb-eyer/go-colorful v1.3.0 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
@@ -86,12 +93,13 @@ require (
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
 	go.yaml.in/yaml/v3 v3.0.4 // indirect
-	golang.org/x/net v0.53.0 // indirect
+	golang.org/x/exp v0.0.0-20260709172345-9ea1abe57597 // indirect
+	golang.org/x/net v0.57.0 // indirect
 	golang.org/x/oauth2 v0.36.0 // indirect
-	golang.org/x/sync v0.20.0 // indirect
-	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/term v0.42.0 // indirect
-	golang.org/x/text v0.36.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/term v0.45.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
 	golang.org/x/time v0.15.0 // indirect
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af // indirect
 	gopkg.in/evanphx/json-patch.v4 v4.13.0 // indirect
@@ -106,5 +114,3 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.4.0 // indirect
 )
-
-replace github.com/kcp-dev/code-generator/v3 => github.com/kcp-dev/code-generator/v3 v3.0.0-20260704101953-84c1b69ab3e0
