@@ -102,8 +102,14 @@ github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
 github.com/json-iterator/go v1.1.12 h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=
 github.com/json-iterator/go v1.1.12/go.mod h1:e30LSqwooZae/UwlEbR2852Gd8hjQvJoHmT4TnhNGBo=
+github.com/kcp-dev/apimachinery/v2 v2.0.0-20260615094100-229dbedddc96 h1:7pKVvP6aMW4AT2FkyAR5MtU2Bfa1wTChcpWN//MfaQo=
+github.com/kcp-dev/apimachinery/v2 v2.0.0-20260615094100-229dbedddc96/go.mod h1:1Rkhiwoq345wlUYtq1/P+3chL2eE1rdoIgBPwb6Y9x8=
+github.com/kcp-dev/client-go v0.0.0-20260522103404-5046253cbd4d h1:tHWIFJe1lvYaeXf9FcztpFOQLPes8RxToNhJfZV0Y4U=
+github.com/kcp-dev/client-go v0.0.0-20260522103404-5046253cbd4d/go.mod h1:UayXqKdaRDBrRXxMyRq/+5CwsDqEXu9LJ9yPBXNQXDI=
 github.com/kcp-dev/logicalcluster/v3 v3.0.5 h1:JbYakokb+5Uinz09oTXomSUJVQsqfxEvU4RyHUYxHOU=
 github.com/kcp-dev/logicalcluster/v3 v3.0.5/go.mod h1:EWBUBxdr49fUB1cLMO4nOdBWmYifLbP1LfoL20KkXYY=
+github.com/kcp-dev/sdk v0.0.0-20260713105657-33b0a6df39af h1:LfGPAJvSAgyK7oG7OiFoEWnZX1e4DCEDl2EyFB0zi0g=
+github.com/kcp-dev/sdk v0.0.0-20260713105657-33b0a6df39af/go.mod h1:lX4XVHSKfSen7ZxrmaqxGeBIFyGucUT4nMg3UzJNzpo=
 github.com/kr/pretty v0.3.1 h1:flRD4NNwYAUpkphVc1HcthR4KEIFJ65n8Mw5qdRn3LE=
 github.com/kr/pretty v0.3.1/go.mod h1:hoEshYVHaxMs3cyo3Yncou5ZscifuDolrwPKZanG3xk=
 github.com/kr/text v0.2.0 h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=
