@@ -8,7 +8,7 @@ require (
 	github.com/google/go-cmp v0.7.0
 	github.com/kcp-dev/client-go v0.0.0-20260522103404-5046253cbd4d
 	github.com/kcp-dev/logicalcluster/v3 v3.0.5
-	github.com/kcp-dev/sdk v0.0.0-20260713105657-33b0a6df39af
+	github.com/kcp-dev/sdk v0.0.0-20260805161038-25eef00b98c9
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
@@ -27,7 +27,7 @@ replace (
 	github.com/charmbracelet/x/ansi => github.com/charmbracelet/x/ansi v0.8.0
 )
 
-replace github.com/kcp-dev/code-generator/v3 => github.com/kcp-dev/code-generator/v3 v3.0.0-20260704101953-84c1b69ab3e0
+replace github.com/kcp-dev/code-generator/v3 => github.com/kcp-dev/code-generator/v3 v3.0.0-20260805075105-d57b102dac06
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
